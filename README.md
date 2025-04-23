@@ -66,6 +66,18 @@ nhập dữ liệu có kiểm soát để test
 #### 🔗 Link tải file SQL:
 https://1drv.ms/u/c/d644b05ab59a11c4/EXxMV9VNHedIrbLFLAm4p6cBhUMvJapzxXjuMwJz67utjQ?e=BOV69f
 
+# kết luận phn trigger giúp ích gì cho đồ án 
+Việc sử dụng Trigger trong hệ thống quản lý mượn trả sách mang lại nhiều lợi ích thiết thực:
+
+ Tự động hóa xử lý: Trigger giúp tự động cập nhật các trường như SoNgayMuon, TrangThai mà không cần thao tác thủ công hay viết thêm nhiều truy vấn mỗi lần dữ liệu thay đổi.
+
+ Đảm bảo tính nhất quán dữ liệu: Trigger giúp kiểm soát logic nghiệp vụ chặt chẽ (ví dụ: không cho mượn nếu sách chưa được trả), tránh nhập sai dữ liệu.
+
+ Tăng hiệu suất thống kê: Dữ liệu đã được chuẩn hóa và cập nhật sẵn, nên các truy vấn thống kê về thời gian mượn, tình trạng sách sẽ chạy nhanh và hiệu quả hơn.
+
+ Giảm lỗi người dùng: Vì trigger xử lý tự động sau khi thao tác INSERT/UPDATE, nên người dùng không cần quan tâm tới việc điền chính xác các giá trị này.
+
+Nhờ đó, Trigger góp phần nâng cao tính ổn định, an toàn và chuyên nghiệp cho hệ thống quản lý thư viện.
 
 
 
